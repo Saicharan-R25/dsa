@@ -1,4 +1,4 @@
-/*From the given array you need to find the MAX SUM we can obtain from K CONSEQUITIVE elements.
+/*From the given array you need to find the MAX SUM we can obtain from K  consecutive elements.
 arr=[-1,2,3,3,4,5,-1],k=4,
 output=15 (We get this from the elements [3,3,4,5])
 */
