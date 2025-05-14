@@ -12,7 +12,7 @@ public class q4 {
             if(arr[r]==0){
                 z_c++;
             }
-            while (z_c>k) {
+            if (z_c>k) {
                 if(arr[l]==0){
                     z_c--;
                 }
