@@ -1,4 +1,13 @@
 public class q5 {
+
+    /*Fruite basket 
+     * 
+     * in this problem you are given 2 baskets and list of numbers. 
+     * these numbers specify fruite types 
+     * you can store only 2 types of fruites 
+     * u can store only one type of fruite in a basket
+     * our task is to find max consecutive fruites we can accumulate using 2 baskets or one basket(if only one type of fruite is present in the lsit)
+     */
     public static void main(String[] args) {
         int arr[]={1,2,1,2,1,2,1,3};
         int l=0;int r=0;
@@ -32,7 +41,7 @@ public class q5 {
                 }else{
                     b1_counter=0;
                     l=r-1;
-                    while (arr[l]==b2_val) {
+                    if(arr[l]==b2_val) {
                         b1_counter++;
                         l--;
                     }
